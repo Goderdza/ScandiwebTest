@@ -1,0 +1,109 @@
+$primaryBG_1: #a2b9bc;
+$primaryBG_2: #b2ad7f;
+$primaryBG_3: #878f99;
+$primary-font: Monospace;
+$font-weights: (
+    "normal" : 200,
+    "medium" : 500,
+    "bold" : 700,
+);
+
+.body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.main {
+    text-align: center;
+
+    .heading {
+        display: flex;
+        margin-top: 30px;
+        margin-left: 50px;
+        margin-right: 50px;
+        font-family: $primary-font;
+        font-size: 20px;
+
+        h1 {
+            font-weight: map-get($map: $font-weights, $key: bold);
+            font-size: 30px;
+            margin-left: 10px;
+
+        }
+
+        .save-btn {
+            margin-top: 1px;
+            margin-bottom: 10px;
+            margin-left: 830px;
+            padding: 0 10px;
+            box-shadow: 4px 4px;
+            transition: box-shadow 100ms;
+
+
+            &:hover {
+                cursor: pointer;
+            }
+
+            &:active {
+                box-shadow: 0px 0px;
+            }
+
+
+
+        }
+
+        .cancel-btn {
+            margin-top: 1px;
+            margin-bottom: 10px;
+            margin-left: 30px;
+            padding: 0 10px;
+            box-shadow: 4px 4px;
+            transition: box-shadow 100ms;
+
+
+            &:hover {
+                cursor: pointer;
+            }
+
+            &:active {
+                box-shadow: 0px 0px;
+            }
+        }
+
+
+    }
+
+    hr {
+        border: 2px solid black;
+        margin-top: 0;
+        margin-left: 50px;
+        margin-right: 50px;
+
+    }
+
+    form {
+        border: 1px solid black;
+        width: 360px;
+        height: 600px;
+        margin-left: 50px;
+        text-align: left;
+        label {
+            font-size: 19px;
+            margin-top: 20px;
+            margin-right: 10px;
+            
+        }
+
+        input {
+            margin-top: 26px;
+            margin-right: 50px;
+            width: 230px;
+            height: 20px;
+            float: right;
+            border: 2px solid black;
+        }
+
+        
+    }
+}
