@@ -8,75 +8,123 @@ $font-weights: (
     "bold" : 700,
 );
 
-.body{
+.body {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
+
 .main {
-    .heading{
+    text-align: center;
+
+    .heading {
         display: flex;
         margin-top: 30px;
         margin-left: 50px;
         margin-right: 50px;
         font-family: $primary-font;
         font-size: 20px;
+
         h1 {
-            font-weight: map-get($map: $font-weights, $key: medium);
+            font-weight: map-get($map: $font-weights, $key: bold);
             font-size: 30px;
+            margin-left: 10px;
 
         }
-        .add{
+
+        .add {
             margin-top: 1px;
             margin-bottom: 10px;
-            margin-right: 0;
-            margin-left: 850px;
+            margin-left: 830px;
             padding: 0 10px;
- 
+            box-shadow: 4px 4px;
+            transition: box-shadow 100ms;
+
+
+            &:hover {
+                cursor: pointer;
+            }
+
+            &:active {
+                box-shadow: 0px 0px;
+            }
+
+
+
         }
+
         #delete-product-btn {
             margin-top: 1px;
             margin-bottom: 10px;
-            margin-left: 50px;
+            margin-left: 30px;
             padding: 0 10px;
+            box-shadow: 4px 4px;
+            transition: box-shadow 100ms;
+
+
+            &:hover {
+                cursor: pointer;
+            }
+
+            &:active {
+                box-shadow: 0px 0px;
+            }
         }
 
-       
+
     }
 
     hr {
-        background-color: black;
-        height: 2px;
+        border: 2px solid black;
         margin-top: 0;
         margin-left: 50px;
         margin-right: 50px;
 
     }
 
-    .products{
+    .products {
         margin: 0 50px;
-        background-color: $primaryBG_1;    
-        margin-top: 40px;   
-        .first_row {
-            justify-content: space-between;
+        margin-top: 40px;
+
+        .products_row {
+            gap: 40px;
+            margin-left: 30px;
             display: flex;
-            background-color: $primaryBG_2;   
 
             form {
-                padding: 55px 80px;
-                display:grid;
-                background-color: $primaryBG_3;
+                margin-bottom: 50px;
+                margin-left: 10px;
+                margin-right: 10px;
+                width: 260px;
+                height: 180px;
+                text-align: center;
+                display: grid;
+                line-height: 0;
+                font-weight: map-get($map: $font-weights, $key: medium);
+                padding-bottom: 50px;
+                border-style: solid;
 
-                input {
-                    position: relative;
-                    right: 90px;
-                    bottom: 35px;
+
+                input[type="checkbox"] {
+                    transform: scale(0.5);
+                    margin-top: 15px;
+                    margin-right: 185px;
+                    cursor: pointer;
+
+
+                    &:checked {
+                        transform: scale(0.7);
+                        accent-color: black;
+                    }
                 }
-                
-            }  
+            }
         }
-             
-    }
-    
-}
 
+        p {
+            font-family: $primary-font;
+            font-weight: map-get($map: $font-weights, $key: medium);
+            margin-top: 25px;
+        }
+
+    }
+}

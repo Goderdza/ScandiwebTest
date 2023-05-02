@@ -4,6 +4,9 @@
   box-sizing: border-box;
 }
 
+.main {
+  text-align: center;
+}
 .main .heading {
   display: flex;
   margin-top: 30px;
@@ -13,46 +16,78 @@
   font-size: 20px;
 }
 .main .heading h1 {
-  font-weight: 500;
+  font-weight: 700;
   font-size: 30px;
+  margin-left: 10px;
 }
 .main .heading .add {
   margin-top: 1px;
   margin-bottom: 10px;
-  margin-right: 0;
-  margin-left: 850px;
+  margin-left: 830px;
   padding: 0 10px;
+  box-shadow: 4px 4px;
+  transition: box-shadow 100ms;
+}
+.main .heading .add:hover {
+  cursor: pointer;
+}
+.main .heading .add:active {
+  box-shadow: 0px 0px;
 }
 .main .heading #delete-product-btn {
   margin-top: 1px;
   margin-bottom: 10px;
-  margin-left: 50px;
+  margin-left: 30px;
   padding: 0 10px;
+  box-shadow: 4px 4px;
+  transition: box-shadow 100ms;
+}
+.main .heading #delete-product-btn:hover {
+  cursor: pointer;
+}
+.main .heading #delete-product-btn:active {
+  box-shadow: 0px 0px;
 }
 .main hr {
-  background-color: black;
-  height: 2px;
+  border: 2px solid black;
   margin-top: 0;
   margin-left: 50px;
   margin-right: 50px;
 }
 .main .products {
   margin: 0 50px;
-  background-color: #a2b9bc;
   margin-top: 40px;
 }
-.main .products .first_row {
-  justify-content: space-between;
+.main .products .products_row {
+  gap: 40px;
+  margin-left: 30px;
   display: flex;
-  background-color: #b2ad7f;
 }
-.main .products .first_row form {
-  padding: 55px 80px;
+.main .products .products_row form {
+  margin-bottom: 50px;
+  margin-left: 10px;
+  margin-right: 10px;
+  width: 260px;
+  height: 180px;
+  text-align: center;
   display: grid;
-  background-color: #878f99;
+  line-height: 0;
+  font-weight: 500;
+  padding-bottom: 50px;
+  border-style: solid;
 }
-.main .products .first_row form input {
-  position: relative;
-  right: 90px;
-  bottom: 35px;
+.main .products .products_row form input[type=checkbox] {
+  transform: scale(0.5);
+  margin-top: 15px;
+  margin-right: 185px;
+  cursor: pointer;
+}
+.main .products .products_row form input[type=checkbox]:checked {
+  transform: scale(0.7);
+  accent-color: black;
+}
+.main .products p {
+  font-family: Monospace;
+  font-weight: 500;
+  margin-top: 25px;
 }/*# sourceMappingURL=fpage_style.css.map */

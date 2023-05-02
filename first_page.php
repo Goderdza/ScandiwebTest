@@ -23,37 +23,102 @@
         <hr>
         <!--code belowe contains products -->
         <div class="products">
-            <div class="first_row">
+            <!-- Acme DISC row -->
+            <div class="products_row">
                 <form>
                     <input type="checkbox">
                     <label>JVC200123</label>
-                    <label>JVC200123</label>
-                    <label>JVC200123</label>
-                    <label>JVC200123</label>
+                    <label>Acme DISC</label>
+                    <label>1.00 $</label>
+                    <label>Size: 700 MB</label>
                 </form>
                 <form>
                     <input type="checkbox">
                     <label>JVC200123</label>
-                    <label>JVC200123</label>
-                    <label>JVC200123</label>
-                    <label>JVC200123</label>
+                    <label>Acme DISC</label>
+                    <label>1.00 $</label>
+                    <label>Size: 700 MB</label>
                 </form>
                 <form>
                     <input type="checkbox">
                     <label>JVC200123</label>
-                    <label>JVC200123</label>
-                    <label>JVC200123</label>
-                    <label>JVC200123</label>
+                    <label>Acme DISC</label>
+                    <label>1.00 $</label>
+                    <label>Size: 700 MB</label>
                 </form>
                 <form>
                     <input type="checkbox">
                     <label>JVC200123</label>
-                    <label>JVC200123</label>
-                    <label>JVC200123</label>
-                    <label>JVC200123</label>
+                    <label>Acme DISC</label>
+                    <label>1.00 $</label>
+                    <label>Size: 700 MB</label>
+                </form>
+            </div>
+            <!-- War and Peace row -->
+            <div class="products_row">
+                <form>
+                    <input type="checkbox">
+                    <label>GGWP0007</label>
+                    <label>War and Peace</label>
+                    <label>20.00 $</label>
+                    <label>Weight: 2KG</label>
+                </form>
+                <form>
+                    <input type="checkbox">
+                    <label>GGWP0007</label>
+                    <label>War and Peace</label>
+                    <label>20.00 $</label>
+                    <label>Weight: 2KG</label>
+                </form>
+                <form>
+                    <input type="checkbox">
+                    <label>GGWP0007</label>
+                    <label>War and Peace</label>
+                    <label>20.00 $</label>
+                    <label>Weight: 2KG</label>
+                </form>
+                <form>
+                    <input type="checkbox">
+                    <label>GGWP0007</label>
+                    <label>War and Peace</label>
+                    <label>20.00 $</label>
+                    <label>Weight: 2KG</label>
+                </form>
+            </div>\
+            <!-- Chair row -->
+            <div class="products_row">
+                <form>
+                    <input type="checkbox">
+                    <label>TR120555</label>
+                    <label>Chair</label>
+                    <label>40.00 $</label>
+                    <label>Dimension: 24x45x15</label>
+                </form>
+                <form>
+                    <input type="checkbox">
+                    <label>TR120555</label>
+                    <label>Chair</label>
+                    <label>40.00 $</label>
+                    <label>Dimension: 24x45x15</label>
+                </form>
+                <form>
+                    <input type="checkbox">
+                    <label>TR120555</label>
+                    <label>Chair</label>
+                    <label>40.00 $</label>
+                    <label>Dimension: 24x45x15</label>
+                </form>
+                <form>
+                    <input type="checkbox">
+                    <label>TR120555</label>
+                    <label>Chair</label>
+                    <label>40.00 $</label>
+                    <label>Dimension: 24x45x15</label>
                 </form>
             </div>
         </div>
+        <hr>
+        <p>Scandiweb Test assignment</p>
     </div>
 
 
